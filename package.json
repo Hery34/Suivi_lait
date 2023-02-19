@@ -1,0 +1,32 @@
+{
+  "name": "suivi_lait",
+  "version": "1.0.0",
+  "description": "Api simple pour suivre un stock de lait maternel",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon serv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hery34/suivi_lait.git"
+  },
+  "keywords": [
+    "lait"
+  ],
+  "author": "Hery RAKOTOMANANA A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hery34/suivi_lait/issues"
+  },
+  "homepage": "https://github.com/Hery34/suivi_lait#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

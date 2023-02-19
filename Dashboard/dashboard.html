@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi-lait</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <h1>Bienvenu(e) sur votre interface de gestion</h1>
+<div class="container">
+    <div class = "block" id="div_stock">
+        <h2>Vérifier l'état des stocks</h2>
+        <button  class="button_style" id="getAllStock">Obtenir la situation</button>
+        <div id="affichage">
+        </div>
+    </div>  
+    <div class = "block" id="div_create">
+        <h2>Enregistrer une nouvelle entrée</h2>
+        <label for="date">Date :</label>
+            <div><input type="text" for="name" id="date"></div>
+        <label for="hour">Heure :</label>
+            <div><input type="text" for="hour" id="hour"></div>
+        <label for="quantity">Quantité :</label>
+            <div><input type="text" for="quantity" id="quantity"></div>
+        <label for="unit">Unité :</label>
+            <div><input type="text" for="unit" id="unit"></div>   
+            <div class="button"><button class="button_style" id="create_stock">Ajouter la donnée</button></div>
+    </div>
+    <div class = "block" id="div_correct">
+        <h2>Corriger une donnée</h2>
+    <label for="ref">Référence :</label>
+        <div><input type="text" for="ref" id="ref_change"></div>
+    <label for="date">Date :</label>
+        <div><input type="text" for="date" id="date_change"></div>
+    <label for="hour">Heure :</label>
+        <div><input type="text" for="hour" id="hour_change"></div>
+    <label for="quantity">Quantité :</label>
+        <div><input type="text" for="quantity" id="quantity_change"></div>
+    <label for="unit">Unité :</label>
+        <div><input type="text" for="unit" id="unit_change"></div>
+        <div class="button"><button class="button_style" id="update_stock">Mettre à jour la donnée</button></div>
+    </div>
+    <div class = "block" id="div_delete">
+        <h2>Supprimer une donnée</h2>
+       <input type="text" for="unit" id="ref_delete" placeholder="Entrez la référence">
+        <div class="button"></div><button class="button_style" id="delete_stock">Supprimer la donnée</button></div>
+    </div>
+</div>
+</body>
+</html>

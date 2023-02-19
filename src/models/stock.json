@@ -1,0 +1,32 @@
+{
+    "stock": [
+        {
+            "ref": 1,
+            "date": "14/02/2023",
+            "hour": "10h57",
+            "quantity": "110",
+            "unit": "Ml"
+        },
+        {
+            "ref": 2,
+            "date": "15/02/2023",
+            "hour": "9h34",
+            "quantity": "130",
+            "unit": "Ml"
+        },
+        {
+            "ref": 3,
+            "date": "18/02/2023",
+            "hour": "9h15",
+            "quantity": "130",
+            "unit": "Ml"
+        },
+        {
+            "ref": 4,
+            "date": "19/02/2023",
+            "hour": "11h24",
+            "quantity": "250",
+            "unit": "Ml"
+        }
+    ]
+}
